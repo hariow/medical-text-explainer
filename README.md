@@ -1,3 +1,16 @@
+## ✅ Final Demo Version
+
+The authoritative and final version of this project is:
+
+📘 **Medical_Text_Explainer_Final.ipynb**
+
+This notebook contains:
+- The final medical text explanation logic
+- Safety-constrained prompt design (no medical advice)
+- The working Gradio demo used for evaluation
+
+Earlier commits and notebooks represent exploratory development and are kept for transparency.
+
 # Medical Text Explainer
 
 Medical Text Explainer is a privacy-first, human-centered AI demo that helps patients understand medical reports, prescriptions, and clinical notes in simple language.
