@@ -21,7 +21,11 @@ This project is designed for patient education only. It does not provide medical
 Medical documents are often difficult for patients to understand. This tool aims to reduce confusion and anxiety by translating clinical language into clear, patient-friendly explanations, especially in low-resource and low-connectivity environments.
 
 ## Approach
-The system uses open-weight healthcare language models such as MedGemma (Health AI Developer Foundations) to understand the clinical context of medical text. A controlled explanation layer ensures safe, consistent, and easy-to-understand outputs.
+
+The system is designed in alignment with the goals of open-weight healthcare language models such as MedGemma (Health AI Developer Foundations), emphasizing human-centered and privacy-first medical understanding.
+
+In the current demo implementation, an open-weight instruction-following language model is used to demonstrate the explanation workflow, safety constraints, and patient-friendly output design. The architecture is model-agnostic and intended to support MedGemma-based deployments as they become more widely accessible.
+
 
 ## Features
 - Patient-friendly explanations of medical text
@@ -33,4 +37,7 @@ The system uses open-weight healthcare language models such as MedGemma (Health 
 This tool is for educational purposes only. It is not a medical diagnosis or medical advice. Always consult a qualified healthcare professional.
 
 ## Demo
-A live demo of the application is provided via a Gradio interface.
+Demo
+
+A Gradio-based demo interface is included in the final notebook for interactive evaluation within Kaggle or local environments.
+
